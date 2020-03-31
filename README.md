@@ -1,3 +1,5 @@
+# REPO FOR DEPLOY ONLY
+Please refer to [Browser Technologies](https://github.com/robert-hoekstra/browser-technologies-1920) for full issues and updates!
 # Browser Technologies @cmda-minor-web 1920
 //Robuuste, toegankelijke websites ontwerpen en maken …
 
