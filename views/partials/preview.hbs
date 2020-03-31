@@ -1,10 +1,21 @@
-<section>
-    <h1>Dit is jouw shirt!</h1>
-    <p>Jouw gekozen tekst:{{text}}</p>
-    <p>Jouw gekozen afbeelding: <img src="/images/{{image}}.png" alt="{{image}}"></p>
-    <img src="/images/{{color}}.png" alt="een {{color}} shirt">
+<main>
+    <section class="container">
+        <h1>Dit is jouw shirt!</h1>
 
-    <p>Sla onderstaande webadres op om jouw shirt in de toekomst te bekijken!</p>
-    <p>{{url}}
-    </p>
-</section>
+        <figure>
+            <div id="mockup">
+                <span id="image-holder"><img src="/images/{{image}}.png" alt="{{image}}"></span>
+                <span id="text-holder">{{text}}</span>
+            </div>
+                <img src="/images/{{color}}.png" alt="een {{color}} shirt">
+        </figure>
+
+        <button onclick="window.print()">Ontwerp uitprinten</button>
+
+        <p>Sla onderstaande webadres op om jouw shirt in de toekomst te bekijken!</p>
+        <textarea id="link">{{url}}
+        </textarea>
+
+        <button id="copy">Copy</button>
+    </section>
+</main>

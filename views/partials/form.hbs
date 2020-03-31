@@ -1,16 +1,18 @@
-<form action="/preview">
+<form action="/preview" target="#iframe">
     <fieldset>
         <legend>Jouw T-Shirt: </legend>
-        <label for="color">
+        <label for="color">Kies een leuke kleur
+            <div class="custom-select">
             <select name="color">
                 <option value="rood">Rood</option>
                 <option value="blauw">Blauw</option>
                 <option value="groen">Groen</option>
                 <option value="wit">Wit</option>
             </select>
+            </div>
         </label>
 
-        <label for="image">
+        <label for="image">Kies een leuk plaatje
             <select name="image">
                 <option value="bril">Bril</option>
                 <option value="code">Code</option>
@@ -18,10 +20,12 @@
                 <option value="nerd">Nerd</option>
             </select>
         </label>
-        <label for="text">
+        <label for="text"> Schrijf een leuke tekst (maximaal 20 tekens)
             <input name="text" type="text" placeholder="Jouw tekst" maxlength="10">
         </label>
         <button type="submit">Verstuur ontwerp</button>
         <button type="reset">Instellingen herstellen</button>
     </fieldset>
 </form>
+
+
