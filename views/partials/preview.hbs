@@ -10,12 +10,16 @@
                 <img src="/images/{{color}}.png" alt="een {{color}} shirt">
         </figure>
 
-        <button onclick="window.print()">Ontwerp uitprinten</button>
+        <p id="beschrijving">De door jouw gekozen kleur is {{color}}. <br>
+        Op het shirt staat de volgende tekst geschreven: {{text}}. <br>
+        En de afbeelding die je hebt gekozen is {{image}}!
+        </p>
+        <p id="instructie">Sla onderstaande webadres op om jouw shirt in de toekomst te bekijken!</p>
 
-        <p>Sla onderstaande webadres op om jouw shirt in de toekomst te bekijken!</p>
         <textarea id="link">{{url}}
         </textarea>
 
-        <button id="copy">Copy</button>
+
     </section>
+    <script src="./javascript/render.js"></script>
 </main>
