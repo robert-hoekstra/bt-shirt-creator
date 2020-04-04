@@ -3,23 +3,54 @@
         <legend>Jouw T-Shirt: </legend>
         <label for="color">Kies een leuke kleur
             <div class="custom-select">
-            <select name="color">
-                <option value="rood">Rood</option>
-                <option value="blauw">Blauw</option>
-                <option value="groen">Groen</option>
-                <option value="wit">Wit</option>
-            </select>
+                <select id="colorOption" name="color">
+                    <option disabled>Selecteer een kleur</option>
+                    <option value="rood">🔴Rood </option>
+                    <option value="blauw">🔵Blauw</option>
+                    <option value="groen">🟢Groen</option>
+                    <option value="wit">⚪️Wit</option>
+                </select>
             </div>
         </label>
+        <section class="previewColors">
+            <h2>Voorbeelden van kleuren</h2>
+            <input type="color" value="#f36c6e" disabled>
+            <input type="color" value="#8cf36e" disabled>
+            <input type="color" value="#6d95f5" disabled>
+            <input type="color" value="#ffffff" disabled>
+        </section>
 
         <label for="image">Kies een leuk plaatje
-            <select name="image">
-                <option value="bril">Bril</option>
+            <select id="imageOption" name="image">
+                <option disabled>Selecteer een plaatje</option>
+                <option value="bril">👓Bril</option>
                 <option value="code">Code</option>
                 <option value="computer">Computer</option>
                 <option value="nerd">Nerd</option>
             </select>
         </label>
+
+        <section class="previewIcons">
+            <h2>Voorbeelden</h2>
+            <div>
+                <img src="/images/bril.png" alt="Een Bril">
+                <p>Een bril</p>
+            </div>
+            <div>
+                <img src="/images/nerd.png" alt="Een Nerd">
+                <p>Een nerd</p>
+            </div>
+            <div>
+                <img src="/images/code.png" alt="Een gesloten tag">
+                <p>Een stukje code</p>
+            </div>
+            <div>
+                <img src="/images/computer.png" alt="Een computer">
+                <p>Een computer</p>
+            </div>
+        </section>
+
+
         <label for="text"> Schrijf een leuke tekst (maximaal 20 tekens)
             <input name="text" type="text" placeholder="Jouw tekst" maxlength="10">
         </label>
@@ -27,5 +58,3 @@
         <button type="reset">Instellingen herstellen</button>
     </fieldset>
 </form>
-
-

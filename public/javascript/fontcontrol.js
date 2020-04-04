@@ -1,5 +1,6 @@
 
-window.onload = function() {showButton()};
+if (document.getElementById("fontcontroller")){
+  window.onload = function() {showButton()};
 
 function showButton() {
   document.getElementById("fontcontroller").style.display = "block"
@@ -14,3 +15,5 @@ function smallerFont(){
 function biggerFont(){
     document.getElementById("allhtml").style.fontSize = "1.5em";
 }
+}
+

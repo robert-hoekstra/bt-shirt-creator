@@ -1,0 +1,32 @@
+header{
+    display: none;
+}
+
+footer{
+    display: none;
+}
+
+  figure {
+    position: relative;
+    display: block;
+    text-align: center;
+  }
+  
+  figure img {
+    text-align: center;
+    vertical-align: middle;
+    height: 100%;
+    margin: auto;
+  }
+  
+  #mockup {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+  }
+  
+  #mockup span {
+    display: block;
+  }
