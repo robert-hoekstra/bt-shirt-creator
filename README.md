@@ -163,12 +163,3 @@ Zorg ervoor dat npm en node geinstalleerd is op jouw device!
 ### Node & NPM Installeren
 [node](https://nodejs.org/en/)
 [npm](https://docs.npmjs.com/cli/install)
-
-
-Student kan de core functionaliteit van een use case doorgronden
-Toegankelijkheid: De user experience is goed
-Readme: In de beschrijving van het project staat een probleemdefinitie, hoe het probleem is opgelost en een uitleg van de code.
-Student kan uitleggen wat Progressive enhancement is. 
-Student laat zien hoe Progressive Enhancement toe te passen in Web Development
-Student kan uitleggen wat Feature detection is.
-Student laat zien hoe Feature Detection kan worden toegepast in Web Development
